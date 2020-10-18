@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.blue {
+  z-index: 4;
+}
+.grey {
+  z-index: 5;
+}
+.black {
+  z-index: 3;
+}
